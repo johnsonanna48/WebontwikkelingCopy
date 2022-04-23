@@ -25,7 +25,8 @@ let images : string[] = [
 
 app.get("/", (req,res)=> {
 app.render("index",
-{images:images});
+{
+images:images});
 });
 
 
