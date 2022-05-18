@@ -1,18 +1,66 @@
-
-
-header{
-    color: aqua;
-    height: 5%;
-    width: auto;
+html, body {
+    padding: 0%;
+    margin: auto;
+    height: 100%;
 }
 
-footer {
-  width: auto;
-        height: 5%;
-    color: aqua;
+.img {
+    display: flex;
+}
+.header {
+    display: flex;
+    background-color: aqua;
+    padding: 5px;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+
+}
+.titletext {
+    display: flex;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36pt;
+    padding: 1%;
+    flex-direction: row
+
+}
+ .container {
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+ }
+.logo {
+    size-adjust: 10%;
+    
+}
+.footer {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50px;
+text-align: center;
+background-color: black;
+color: aliceblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-li{
-    color: black;
+.content {
+    flex: 1;
+    padding: 20px;
 }
 
+
+.navbar a {
+    color:  antiquewhite;
+}
+
+
+.navbar { 
+background-color: black;
+display: flex;
+padding: 10px;
+gap: 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,48 @@
+
+*{
+    display: grid;
+    grid-template-areas: 
+    "header","header","header"
+    "main","main","main","aside","aside"
+    "footer","footer","footer","footer","footer","footer";
+}
+img {
+    size: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+
+header{
+    height: 100px;
+    width: 100px;
+}
+main {
+    align-self: center;
+    background-color: aqua;
+}
+
+
+aside {
+    align-items: right;
+    background-color: aquamarine;
+}
+
+
+
+
+footer {
+    align-self: center;
+    height: 25%;
+    color: black;
+    text-decoration-color: aliceblue;
+    background-color: black;
+}
